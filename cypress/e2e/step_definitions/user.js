@@ -1,6 +1,7 @@
 /// <reference types="cypress" />
+
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
-import ApiRequests from "../../support/api/ApiRequests";
+import ApiRequests from "../pages/user_page";
 
 let response;
 
